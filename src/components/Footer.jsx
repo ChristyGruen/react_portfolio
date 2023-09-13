@@ -12,7 +12,7 @@ import {
 export default function Footer() {
 
   return (
-    <MDBFooter className='fixed-bottom bg-dark text-center text-white'>
+    <MDBFooter className='fixed-bottom bg-dark bg-gradient text-center text-white'>
 
       <div className='footer text-center p-1'>
           <a  href='https://github.com/ChristyGruen'>

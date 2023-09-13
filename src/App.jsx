@@ -19,7 +19,7 @@ function App() {
     <>
       <AppProvider>
         <Header/>
-        <Container className='text-light w-auto p-3 h-auto d-inline-block' style={{ backgroundImage: `url(${image})` }}>
+        <div className='text-light w-auto p-3 h-auto d-inline-block' style={{ backgroundImage: `url(${image})` }}>
           <BrowserRouter>
             <Routes>
               <Route path='/' element={<Home />} />
@@ -30,7 +30,7 @@ function App() {
               <Route path='*' element={<PageNotFound />} />
             </Routes>
           </BrowserRouter>
-        </Container>
+        </div>
         <Footer />
       </AppProvider>
     </>
@@ -88,3 +88,5 @@ https://modus-react-bootstrap.trimble.com/getting-started/
 // </header> */}
 
 // {/* <Route path='/aboutme' element={<AboutMe />} /> */}
+
+// className='text-light w-auto p-3 h-auto d-inline-block'
