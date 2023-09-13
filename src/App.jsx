@@ -19,7 +19,7 @@ function App() {
     <>
       <AppProvider>
         <Header/>
-        <div className='text-light w-auto p-3 h-auto d-inline-block' style={{ backgroundImage: `url(${image})` }}>
+        <div className='text-light w-auto p-3 d-inline-block' style={{ backgroundImage: `url(${image})` }}>
           <BrowserRouter>
             <Routes>
               <Route path='/' element={<Home />} />
@@ -56,7 +56,7 @@ https://modus-react-bootstrap.trimble.com/getting-started/
 */
 
 
-
+//original header
 // {/* <header>
 // <Container className = 'text-light w-auto p-3 h-auto d-inline-block' style = {{backgroundImage: `url(${image})`}}>
 //   <Row>

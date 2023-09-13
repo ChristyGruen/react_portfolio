@@ -24,7 +24,7 @@ export default function Contact() {
     <>
       <h1>Contact Page</h1>
       {/* using context to create form */}
-      <FormProvider data={{ name: "gary", email: "blah", location: "blah" }} onSubmit={handleSubmitForm}
+      <FormProvider data={{ name: "PJ", email: "pjcatticus@email.com", location: "ThePorch" }} onSubmit={handleSubmitForm}
       >
         <Form>
           <InputGroup name='name' label="Name" placeholder="John Doe" />

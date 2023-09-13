@@ -1,13 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 export default function Navbarry() {
   return (
-    <Navbar expand="lg" className="fixed-top bg-body-tertiary bg-dark bg-gradient text-light">
+    <Navbar expand="lg" className="fixed-top bg-body-tertiary bg-dark bg-gradient text-light p-3">
       <Container>
-        <Navbar.Brand href="#home" className="text-light">Chris Gruenhagen</Navbar.Brand>
+        <Navbar.Brand href="#home" className="text-light fs-2 fw-bolder ">Chris Gruenhagen</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto ">
