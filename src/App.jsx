@@ -11,15 +11,21 @@ import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
 import image from './assets/lakebackground.jpg'
 import '@trimbleinc/modus-react-bootstrap/css/dist/modus-react-bootstrap.min.css';
+import './App.css'
 
 
 
 function App() {
   return (
     <>
-      <AppProvider>
+      <AppProvider >
+      <div style ={{height: '100vh'}}>
         <Header/>
-        <div className='text-light w-auto p-3 d-inline-block' style={{ backgroundImage: `url(${image})` }}>
+        
+        <Container className = 'mt-5 p-5' fluid style = {{height: 'auto'}}>
+        <Row >
+       
+
           <BrowserRouter>
             <Routes>
               <Route path='/' element={<Home />} />
@@ -30,8 +36,11 @@ function App() {
               <Route path='*' element={<PageNotFound />} />
             </Routes>
           </BrowserRouter>
-        </div>
+          </Row>
+          </Container>
+         
         <Footer />
+        </div>
       </AppProvider>
     </>
   )

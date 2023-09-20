@@ -1,11 +1,14 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  /* background-color: lightgoldenrodyellow; */
+  background-image: url("./assets/lakebackground.jpg");
+  background-size: cover;
 }
 
-.logo {
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -39,12 +42,22 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
 
-.nav-background {
-  background-image: url("./assets/lakebackground.jpg");
-  background-size: cover;
+.center-background {
+  /* background-image: url("./assets/lakebackground.jpg");
+  background-size: cover; */
+  margin: 0;
+  background-color: rgb(113, 170, 49,0.2);
+
 
   /* Workaround for some mobile browsers */
   min-height: 100%;
 }
+
+
+
+/* 
+https://mdbootstrap.com/docs/react/utilities/opacity/
+https://www.tutorialspoint.com/set-the-opacity-only-to-background-color-not-on-the-text-in-css#:~:text=Users%20can%20follow%20the%20syntax,%25%2C%2030%25%2C%20opacity)%3B
+*/

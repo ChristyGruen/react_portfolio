@@ -15,7 +15,7 @@ export default function Portfolio(){
   return(
     <>
     <h1>Portfolio Page</h1>
-    <row className = 'd-flex'>
+    <div className = 'd-flex p-3'>
     <Card className = 'm-2 p-2'style={{ height: '25rem', width: '30rem', backgroundImage: `url(${TechBlogImage})` }}>
       <Card.Body>
         <Card.Title>Tech Blog</Card.Title>
@@ -60,8 +60,8 @@ export default function Portfolio(){
         <Card.Link href="https://christygruen.github.io/calendar_app/">Calendar App</Card.Link>
       </Card.Body>
     </Card>
-    </row>
-    <row className = 'd-flex'>
+    </div>
+    <div className = 'd-flex p-3'>
     <Card className = 'm-2 p-2'style={{ height: '25rem', width: '30rem', backgroundImage: `url(${WeatherAppImage})` }}>
       <Card.Body>
         <Card.Title>Weather App</Card.Title>
@@ -104,8 +104,8 @@ export default function Portfolio(){
         <Card.Link href="https://christygruen.github.io/coding_quiz/">Coding Quiz</Card.Link>
       </Card.Body>
     </Card>
-    </row>
-    <row className = 'd-flex'>
+    </div>
+    <div className = 'd-flex p-3'>
     <Card className = 'm-2 p-2'style={{ height: '25rem', width: '30rem', backgroundImage: `url(${PWGeneratorImage})` }}>
       <Card.Body>
         <Card.Title>Password Generator</Card.Title>
@@ -148,7 +148,7 @@ export default function Portfolio(){
         <Card.Link href="https://ad31aid.github.io/fantastic-octo-sudoku/">Sudoku</Card.Link>
       </Card.Body>
     </Card>
-    </row>
+    </div>
     
     </>
   )
