@@ -8,6 +8,40 @@
   background-size: cover;
 }
 
+.techblog{
+  background-image: url("./assets/TechBlog.jpg");
+  background-size: cover;
+}
+
+.calendarapp{
+  background-image: url("./assets/calendar_data_retrieval.jpg");
+  background-size: cover;
+}
+
+.weatherapp{
+  background-image: url("./assets/weather_app.png");
+  background-size: cover;
+}
+
+.codingquiz{
+  background-image: url("./assets/codingQuiz.png");
+  background-size: cover;
+}
+
+.passwordgen{
+  background-image: url("./assets/PW_Generator.png");
+  background-size: cover;
+}
+
+.sudoku{
+  background-image: url("./assets/Screenshot-Sudoku.png");
+  background-size: cover;
+}
+
+
+
+
+
 /* .logo {
   height: 6em;
   padding: 1.5em;
@@ -49,12 +83,13 @@
   background-size: cover; */
   margin: 0;
   background-color: rgb(113, 170, 49,0.2);
-
-
   /* Workaround for some mobile browsers */
   min-height: 100%;
 }
 
+.peej{
+  background-color: rgb(113, 170, 49,0.2);
+}
 
 
 /* 
