@@ -1,44 +1,68 @@
 #root {
   /* max-width: 1280px; */
+  /* display: flex;
   margin: 0 auto;
   padding: 2rem;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; */
+  vertical-align: middle;
   text-align: center;
-  /* background-color: lightgoldenrodyellow; */
+  background-color: lightgoldenrodyellow;
   background-image: url("./assets/lakebackground.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
 .techblog{
   background-image: url("./assets/TechBlog.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .calendarapp{
   background-image: url("./assets/calendar_data_retrieval.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .weatherapp{
   background-image: url("./assets/weather_app.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .codingquiz{
   background-image: url("./assets/codingQuiz.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .passwordgen{
   background-image: url("./assets/PW_Generator.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .sudoku{
   background-image: url("./assets/Screenshot-Sudoku.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
-
+.thinksync{
+  background-image: url("./assets/ThinkSync.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
 
 
 
@@ -79,17 +103,16 @@
 } */
 
 .center-background {
-  /* background-image: url("./assets/lakebackground.jpg");
-  background-size: cover; */
   margin: 0;
   background-color: rgb(113, 170, 49,0.2);
   /* Workaround for some mobile browsers */
   min-height: 100%;
 }
 
-.peej{
+.defaultCard{
   background-color: rgb(113, 170, 49,0.2);
 }
+
 
 
 /* 

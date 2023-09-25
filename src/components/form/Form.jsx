@@ -25,7 +25,8 @@ export default function Form(props){
     <form onSubmit = {submitTheForm}>
     {props.children}
     {formError === true &&(
-      <p> Error - please try again</p>
+  
+      <h3 className = 'text-danger'> Error - please try again</h3>
     )
     }
     </form>

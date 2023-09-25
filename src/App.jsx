@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <AppProvider >
-      <div style ={{height: '100vh'}}>
+      <div style ={{height: '100vh', width: '100vw'}}>
         <Header/>
         
         <Container className = 'mt-5 p-5' fluid style = {{height: 'auto'}}>
@@ -62,6 +62,8 @@ https://stackoverflow.com/questions/53360673/add-background-image-in-react-with-
 https://modus-react-bootstrap.trimble.com/foundations/color-palette/
 
 https://modus-react-bootstrap.trimble.com/getting-started/
+
+https://stackoverflow.com/questions/25225682/difference-between-width100-and-width100vw
 */
 
 
